@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <div class="item-ui">
+    <p class="item-p">게임설명</p>
+    <textarea
+      cols="20"
+      rows="5"
+      class="input-ui"
+      placeholder="게임설명을 입력해주세요."
+    ></textarea
+    ><br />
+    <button type="button" class="uiTextOk">확인</button>
+    <p class="p-tag"></p>
+    <div class="div-ui">
+      <button id="btn-delete">닫기</button>
+      <button id="btn-initialization">초기화</button>
+    </div>
+  </div>
+
+  <body>
+    <div class="header">
+      <div class="name">제작자 : 김재윤</div>
+      <h1 class="title">My Game Gallery</h1>
+    </div>
+    <div class="main">
+      <div class="div-parent">
+        <div class="first-item">
+          <p>league of legend</p>
+          <img src="./img/img1.jpg" alt="게임 이미지 입니다." />
+        </div>
+        <button id="btn-plus">
+          <img src="./img/plus.jpg" alt="플러스버튼입니다." />
+        </button>
+      </div>
+    </div>
+    <script src="./gameGallery.js"></script>
+  </body>
+</html>
